@@ -4,7 +4,7 @@ var os = require('os');
 var aliens = require('./aliens.json');
 
 module.exports = function () {
-    var file = path.resolve(os.tmpdir(), 'meet-pipe-data.txt');
+    var file = path.resolve(os.tmpDir(), 'meet-pipe-data.txt');
     var data = '';
 
     for (var i = 0; i < 10; i++) {
